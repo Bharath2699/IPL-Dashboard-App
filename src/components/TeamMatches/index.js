@@ -1,9 +1,13 @@
 // Write your code here
 import {Component} from 'react'
 
+import {Link} from 'react-router-dom'
+
 import Loader from 'react-loader-spinner'
 
 import LatestMatch from '../LatestMatch'
+
+import Piechart from '../Piechart'
 
 import MatchCard from '../MatchCard'
 
@@ -68,7 +72,7 @@ class TeamMatches extends Component {
     return (
       <div className="team-match-container">
         {isLoading ? (
-          <div testid="loader">
+          <div data-testid="loader">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
@@ -88,6 +92,13 @@ class TeamMatches extends Component {
             </ul>
           </div>
         )}
+        <h1 className="heading">Statics</h1>
+        <Piechart matchResults={recentMatch} />
+        <Link to="/">
+          <button type="button" className="backButton">
+            Back
+          </button>
+        </Link>
       </div>
     )
   }
