@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.latest-match-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e293b;
+}
+.opp-team-image {
+  height: 150px;
+  width: 150px;
+}
+.right {
+  color: #ffffff;
+}
+.bold {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.team {
+  color: #ffffff;
+  font-size: 20px;
+}
+.data {
+  color: #ffffff;
+  font-size: 15px;
+}
+.venue {
+  color: #ffffff;
+  font-size: 15px;
+}
+.result {
+  color: #ffffff;
+  font-size: 15px;
+}

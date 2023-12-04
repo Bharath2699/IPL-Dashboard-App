@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.match-card-container {
+  background-color: #1e293b;
+  width: 40%;
+  border-radius: 9px;
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.match-card-image {
+  height: 80px;
+  width: 100px;
+}
+.match-card-heading {
+  color: #ffffff;
+}
+.match-result {
+  color: #ffffff;
+}
+.status {
+  color: #18ed66;
+}
